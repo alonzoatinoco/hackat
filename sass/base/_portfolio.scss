@@ -1,0 +1,45 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    &__title{
+        text-align: center;
+        h5{
+            color: $color-secundario;
+        }
+        h5,h2{
+            text-transform: $text-mayus;
+        }
+    }
+    .contenedor-articulos{
+        margin-bottom:1rem;
+    }
+    &__info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+    &__text{
+        h4,h2{
+            text-transform: $text-mayus;
+        }
+        h4{
+            color: $color-secundario;
+        }
+        p{
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+    &__img{
+        border: 1px solid $color-secundario;
+    }
+}
+.reverse{
+    .portfolio__img{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+}

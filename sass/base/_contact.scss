@@ -1,0 +1,21 @@
+.contact{
+    background-color: $color-secundario;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text{
+        h2{
+            text-transform: $text-mayus;
+            font-weight: $principal-m;
+        }
+        h2,p{
+            color: $color-claro;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 45rem;
+    margin-top: 3rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    &__img{
+        border: 1px solid $color-secundario;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-transform: uppercase;
+        h4{
+            color: $color-secundario;
+        }
+        p{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            text-transform: initial;
+        }
+    }
+}

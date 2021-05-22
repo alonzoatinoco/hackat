@@ -1,0 +1,42 @@
+.header{
+    background-color: $color-fondo-dos;
+    height: 70rem;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        height: 5rem;
+        /* border: 1px red solid; */
+        padding-top: 2rem;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 60rem;
+        padding-left: 2rem;
+        .info__text {
+            text-transform: $text-mayus;
+            h1{
+                font-size: 7rem;
+            }
+        }
+    }
+}
+.menu__logo{
+    display: flex;
+}
+
+.nav-bar{
+    display: flex;
+        &__link{
+            padding: 2rem 3rem;
+            font-weight: $principal-b;
+        }
+        &__link:hover{
+            color: $color-secundario;
+            transition: .4s;
+        }
+}

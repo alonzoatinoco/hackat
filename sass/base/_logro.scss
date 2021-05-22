@@ -1,0 +1,22 @@
+.logro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
+    background-color: $color-fondo-uno;
+    &__section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__img{
+        margin-right: 1rem;
+    }
+    &__info{
+        .info_text{
+            text-transform: uppercase;
+            font-weight: $principal-b;
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+.main{
+    padding: 2rem 0;
+    background-color:$color-claro;
+    height: 45rem;
+    &__text{
+        margin-top: 3rem;
+        text-align: center;
+        h4{
+            color: $color-secundario;
+            font-size: 2rem;
+        }
+    }
+    &__option{
+        margin-top: 6rem;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        &__content{
+            .img__content{
+                margin-bottom: 2rem;
+            }
+        }
+        &__info{
+            h3, p{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
